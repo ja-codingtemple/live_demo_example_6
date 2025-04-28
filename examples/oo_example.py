@@ -32,8 +32,8 @@ INSTANTIATING THE ANIMAL CLASS & ACCESSINGS ITS PROPERTIES / METHODS
 print("\nINSTANTIATING THE ANIMAL CLASS & ACCESSINGS ITS PROPERTIES / METHODS:")
 
 # Here we create two Animal objects.
-animal1 = Animal("Luna")
-animal2 = Animal("Opal")
+animal1 = Animal("Fluffy")
+animal2 = Animal("Snowball")
 
 # Here we print out the values of various object attributes.
 print(animal1.name + " " + animal2.name)
@@ -51,10 +51,10 @@ print(animal2.location)
 INSTANTIATING THE SUBCLASSES & ACCESSING THEIR PROPERTIES / METHODS
 '''
 print("\nINSTANTIATING THE SUBCLASSES & ACCESSING THEIR PROPERTIES / METHODS")
-dog1 = Dog("Shadow")
+dog1 = Dog("Peanut")
 dog1.walk("the dog park")
 dog1.bark("the other dogs")
 
-cat1 = Cat("Monster")
+cat1 = Cat("Moon")
 cat1.walk("the food bowl")
 cat1.highjump("the kitchen counter")
